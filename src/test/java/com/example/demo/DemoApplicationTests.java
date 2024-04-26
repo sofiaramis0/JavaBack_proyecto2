@@ -9,7 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-@ContextConfiguration(classes = TestConfig.class) // Reemplaza TestConfig con tu clase de configuración de prueba
+@ContextConfiguration(classes = SecurityConfig.class) // Reemplaza TestConfig con tu clase de configuración de prueba
 class DemoApplicationTests {
 
     @Autowired
